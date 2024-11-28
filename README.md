@@ -36,3 +36,17 @@ After you create a project, you can go to the project’s `Manage` tab > select 
 Lastly, you can follow the below demonstration to create/get your [IBM Cloud user API key](https://cloud.ibm.com/iam/apikeys?utm_source=skills_network&utm_content=in_lab_content_link&utm_id=Lab-test1_v1_1702536549). Be sure to write your API key down somewhere right after you create it, because you won’t be able to see it again!
 
 ![Getting IBM cloud user API key](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMSkillsNetwork-GPXX0PPIEN/ezgif.com-video-to-gif.gif)
+
+
+***********************************************To run it:
+pip3 install virtualenv 
+virtualenv my_env # create a virtual environment my_env
+source my_env/bin/activate # activate my_env
+
+git clone https://github.com/BeBono/build_own_chatbot_without_open_ai.git
+mv build_own_chatbot_without_open_ai build_chatbot_for_your_data
+cd build_chatbot_for_your_data
+
+pip install -r requirements.txt
+
+python3 server.py
